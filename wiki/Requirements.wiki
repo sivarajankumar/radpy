@@ -1,4 +1,5 @@
 #summary Requirements to run RadPy
+#labels Featured
 = Introduction =
 
 The current build of RadPy has only been tested to work under Windows (XP and Vista).  However, all components should work under MacOS and Linux.
