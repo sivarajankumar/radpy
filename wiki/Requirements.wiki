@@ -9,10 +9,10 @@ The current build of RadPy has only been tested to work under Windows (XP and Vi
 
 RadPy Requirements:
 
-1. <a href="http://www.python.org/">Python</a> version 2.5 or later.
+1. <a href="http://www.python.org/">Python</a> version 2.6 or later.
 
 2. The <a href="http://code.enthought.com/projects/index.php">Enthought Tool Suite</a>: specifically Chaco, Envisage and Traits.
 
 3. <a href="http://www.riverbankcomputing.co.uk/software/pyqt/download">PyQt</a> version 4.4.3 or later.
 
-The simplest way to meet all of these requirements on Windows (XP or Vista) is to install the <a href="http://www.pythonxy.com">Python(x,y)</a> distribution.  RadPy has been tested to work with version 2.1.14.
+The simplest way to meet all of these requirements on Windows (XP or Vista) is to install the <a href="http://www.pythonxy.com">Python(x,y)</a> distribution.  RadPy has been tested to work with version 2.6.2.0.
