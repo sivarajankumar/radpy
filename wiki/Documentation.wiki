@@ -1,0 +1,44 @@
+#summary How to use RadPy and its plugins.
+#labels Featured
+
+= Introduction =
+
+For instructions on installing RadPy, see [Installation].
+To contribute to the RadPy project, see [Developers Guide].
+For documentation on the various RadPy plugins, see the [Plugins] page.
+
+= RadPy =
+
+RadPy is based on the Enthought [https://svn.enthought.com/enthought/wiki/EnvisageThree/Workbench.html workbench] application which in turn is based on [http://eclipse.org/ Eclipse], the integrated development environment (IDE) not the treatment planning system.  The interface of RadPy is based on three concepts: views, editors and perspectives.  From the Enthought website,
+
+   1.  Views
+
+      Views are primarily used to present information to the user to help them perform    their current task.
+
+      In an IDE application, views might be:
+          * file tree
+          * class outlines
+   2. Editors
+
+      Editors allow the user to manipulate data and objects to perform their current      task. Editors are really the focus of users attention with the views used to provide supporting information. Editors are grouped together geographically in what is known as the editor area.
+
+      In an IDE application, editors would contain the source code that a developer is currently working on.
+
+   3. Perspectives
+
+      A perspective is a particular grouping of views (usually around the editor area) that correspond to a user task.
+
+      For example, in an IDE, I might have the following perspectives:
+          * Coding perspective
+            This is the perspective that the user (in this case a developer) would be in when they are actually writing the code. It might contain views that show the files in the current project, the outline of the current class etc, and the editors would contain the source code that they are actually working on.
+          * Debugging perspective
+            In this perspective, the user would still see the source code in the editors, but the views might show things like breakpoints, variable watches, stack information etc.
+
+
+To change perspectives, you can use the 'View/Perspective' menu on the RadPy menubar.  A list of available perspectives will appear.  The perspectives available will depend on the plugins you have installed.  Once you select a perspective, the interface will update to show the views that have been defined by that perspective.  Note that the state of the interface will be the same as the last time that perspective was used.  So, for example, if you have moved a view, the view will appear in that same position.  If you wish to reset the perspective back to its default state, use the Reset Perspective option in the 'View/Perspective' menu.  There is also an option to reset all perspectives.
+
+Available views can be added to the interface at any time, even if RadPy is using a different perspective than that which contains the view.  To add a view, go to the View menu and select 'Other...'.  A list of all views contributed by all plugins will appear.  Select the desired view and it will appear in the current perspective.  You can mix and match views as much as you want.  If there is a particular setup that you wish to save, you can create a new perspective by going to 'View/Perspectives' and selecting 'New perspective...'.  In the same menu, you can save the current state by selecting 'Save perspective as ...'.
+
+In the View menu, a list of all available views defined for the current perspective is shown.  Views can be hidden or shown by selecting them in this menu.  A check mark will appear if the view is visible.  Views can be moved or resized within the RadPy program window, or they can be undocked and moved outside the RadPy window.  Moving or undocking a view is accomplished by clicking on the view's name bar at the very top of the view and dragging it to the desired position.  Views are resized by clicking on the desired edge and dragging it.
+
+Preferences are found in the 'Preferences' option under the Tools menu.  The available preference options for each plugin are defined by that plugin.  See the [Plugins] page for information.
