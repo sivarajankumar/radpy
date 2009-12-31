@@ -4,7 +4,7 @@
 = Introduction =
 
 For instructions on installing RadPy, see [Installation].
-To contribute to the RadPy project, see the [DevelopersGuide Developer's Guide].
+To contribute to the RadPy project, see [Contributing].
 For documentation on the various RadPy plugins, see the [Plugins] page.
 
 = RadPy =
