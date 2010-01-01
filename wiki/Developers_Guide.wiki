@@ -1,0 +1,23 @@
+#summary Useful links for RadPy developers.
+#labels Phase-Implementation
+
+= Introduction =
+
+Contributing to the RadPy code base is one of the best ways to help out with the project.  RadPy is written in Python, using PyQt as the GUI library.  It uses many projects from the Enthought Tool Suite including Traits, TraitsGUI, Chaco and Envisage.  Knowledge of Python and some familiarity with the Enthought Tool Suite is essential. TraitsGUI is a wrapper around PyQt, so knowledge of PyQt is not mandatory.  TraitsGUI is easier to learn, but does not utilize the full feature set of PyQt.  Documentation for all of these can be found in the links section below.
+
+= Useful Wiki Pages =
+
+ * [Subclipse How to setup the subclipse subversion client for use with Google Code].
+ * [TortoiseSVN How to setup TortoiseSVN for use with Google Code].
+ * [Workbench An explanation of the internal workings of the Enthought workbench application].
+ * [Plugin_Guide How to write a RadPy plugin] (coming soon).
+ * [unittest How to use the Python unittest module to write unit tests for RadPy] (coming soon).
+
+= Useful Links =
+
+ * [http://code.google.com/p/support/wiki/GettingStarted Getting Started with Google Code].
+ * [http://www.python.org/doc/ Python Documentation Index]
+ * [http://www.riverbankcomputing.com/software/pyqt/intro PyQt documentation]
+ * [http://code.enthought.com/ Enthought Tool Suite]
+ * [https://svn.enthought.com/enthought/wiki/GettingStartedWithEnthoughtTechnologies3x Getting Started with Enthought Technologies]
+ * [https://mail.enthought.com/mailman/listinfo/enthought-dev Enthought-dev mailing list]
