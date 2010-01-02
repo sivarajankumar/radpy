@@ -16,6 +16,7 @@ Contributing to the RadPy code base is one of the best ways to help out with the
 = Useful Links =
 
  * [http://code.google.com/p/support/wiki/GettingStarted Getting Started with Google Code].
+ * [http://svnbook.red-bean.com/ Version Control with Subversion]
  * [http://www.python.org/doc/ Python Documentation Index]
  * [http://www.riverbankcomputing.com/software/pyqt/intro PyQt documentation]
  * [http://code.enthought.com/ Enthought Tool Suite]
