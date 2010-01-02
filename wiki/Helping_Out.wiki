@@ -24,7 +24,7 @@ Any code that modifies or analyzes data should have a unit test.  Eventually a u
 
 ==Fixing Bugs/Adding Features==
 
-Any patches that add features or fix bugs are always welcome.  The [http://code.google.com/p/radpy/issues/list Issues list] is a good place to start to find areas that need improvement.  To submit a patch, you must first create a patch file.  There are several utilities that can create a patch file, but the easiest way is probably to use your subversion client.  For example, with TortoiseSVN you can right click on the top level of your RadPy source directory and go to 'TortoiseSVN/Create patch...'.  This file can then be uploaded to the Google code issue tracker.  Once your patch has been evaluated by a project developer, it may be committed into the source repository.
+Any patches that add features or fix bugs are always welcome.  The [http://code.google.com/p/radpy/issues/list Issues list] is a good place to start to find areas that need improvement.  To submit a patch, you must first create a patch file.  There are several utilities that can create a patch file, but the easiest way is probably to use your subversion client.  The [TortoiseSVN] and [Subclipse] pages have information on how to create a patch file with your changes.
 
 ==Becoming a Core Developer==
 
