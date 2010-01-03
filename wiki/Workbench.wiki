@@ -1,0 +1,21 @@
+#summary A compilation of everything we've learned about the workbench plugin.
+
+= Introduction =
+
+Unfortunately, the Enthought workbench plugin is still in an early stage of development.  This means that documentation is pretty much non-existent.  Fortunately, the developers are very good about answering questions on the enthought-dev mailing list.  This page is an attempt to compile all the information gleaned from combing the enthought-dev archives.  THIS IS NOT AN AUTHORITATIVE SOURCE.  The information here may not be correct, and if it conflicts with something on the Enthought web site, then the web site is probably correct.
+
+= Useful Links =
+
+ * [https://svn.enthought.com/enthought/wiki/GettingStartedWithEnthoughtTechnologies Getting Started with Enthought Technologies] contains a tutorial on the Lorenz example workbench application.
+ * [https://svn.enthought.com/enthought/browser/EnvisagePlugins/trunk/examples/workbench Source code] for the example workbench applications.
+ * [https://mail.enthought.com/pipermail/enthought-dev/2007-June/006608.html Explanation] of how editor windows worked in Envisage 2.0.  The basic concept is the same in 3.0, but I don't believe resource types are used any more.
+ * Some good [https://mail.enthought.com/pipermail/enthought-dev/2009-October/024495.html info] on the difference between views and editors and how to implement them.
+ * An [https://mail.enthought.com/pipermail/enthought-dev/2009-January/019730.html explanation] of Envisage plugins, extensions and service points.
+ * [http://code.enthought.com/projects/mayavi/ Mayavi], an advanced visualization application based on the workbench.
+
+= Workbench Concepts =
+
+ * [Views]
+ * [Editors]
+ * [Perspectives]
+ * [Plugins]
