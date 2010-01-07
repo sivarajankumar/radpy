@@ -11,6 +11,10 @@ From the Enthought [https://svn.enthought.com/enthought/wiki/EnvisageThree/Workb
       * file tree
       * class outlines
 
+Robert Kern wrote in a message on [https://mail.enthought.com/mailman/listinfo/enthought-dev Enthought-dev]:
+
+ Views are persistent. They are always alive while the Workbench itself is, regardless of whether they are currently displayed or not. They should be written accordingly. They can modify the state of your multiple model objects, certainly. They just need to be able to handle having their model object being hotswapped out, or perhaps not having any model object at all (e.g. if the View responds to the user's current selection). Or their models need to be persistent throughout the lifetime of the WorkbenchWindow (e.g. if the View just views/configures a service that is part of the app structure itself and not your model objects). Typically they will connect to just such a persistent service and respond to changes there.
+
 
 
 = Details =
