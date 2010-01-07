@@ -43,4 +43,28 @@ def activated(self, record):
 
 }}}
 
-The 'kind' keyword argument for the workbench.edit method passes an object to the workbench that defines the editor window.  
+The 'kind' keyword argument for the workbench.edit method passes a class to the workbench that defines the editor window.  This class can be subclassed from the TraitsUIEditor class.  The TraitsUIEditor displays whatever the traits_view trait in the underlying object is set to display.  Here are the ChacoPlot and ChacoPlotEditor classes.
+
+{{{
+class ChacoPlotEditor(TraitsUIEditor):
+        
+    def _name_default(self):
+        return "Scan Plot"
+
+
+class ChacoPlot(HasTraits):
+
+    plot = Instance(Component)
+    name = 'Scan Plot'
+    id = 'Scan Plot'
+    traits_view = View(
+                         Group(
+                             Item('plot', editor=ComponentEditor(size=(400,300)),
+                                  show_label=False),
+                             orientation = "vertical"),
+                         resizable=True, title="Test",
+                        width=400, height=300, id='Scan Plot'
+                         )
+}}}
+
+In this case, the only purpose in subclassing TraitsUIEditor was to override the default editor name to make it human readable.
