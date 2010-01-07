@@ -18,4 +18,5 @@ Unfortunately, the Enthought workbench plugin is still in an early stage of deve
  * [Views]
  * [Editors]
  * [Perspectives]
+ * [Actions]
  * [Plugins]
