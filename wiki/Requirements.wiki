@@ -15,4 +15,8 @@ RadPy Requirements:
 
 3. <a href="http://www.riverbankcomputing.co.uk/software/pyqt/download">PyQt</a> version 4.4.3 or later.
 
-The simplest way to meet all of these requirements on Windows (XP or Vista) is to install the <a href="http://www.pythonxy.com">Python(x,y)</a> distribution.  RadPy has been tested to work with version 2.6.2.0.
+4. <a href="http://codespeak.net/lxml/">lxml</a>, a python based XML parser.
+
+The simplest way to meet all of these requirements, except lxml, on Windows (XP or Vista) is to install the <a href="http://www.pythonxy.com">Python(x,y)</a> distribution.  RadPy has been tested to work with version 2.6.2.0.
+
+lxml can be downloaded <a href="http://codespeak.net/lxml/">here</a>.
