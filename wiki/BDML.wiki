@@ -14,7 +14,7 @@ This outline also gives the data structure of a beam object in RadPy.  For examp
      * MeasuringDevice
         * Model
         * Type
-        * Vendor
+        * Manufacturer
      * Isocenter
         * x
         * y
