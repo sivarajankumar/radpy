@@ -19,7 +19,7 @@ This outline also gives the data structure of a beam object in RadPy.  For examp
         * x
         * y
         * z
-     * Coordinate Axis
+     * CoordinateAxes
         * Inplane
         * Crossplane
         * Depth
