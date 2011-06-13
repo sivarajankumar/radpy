@@ -18,4 +18,5 @@ Since RadPy is still in an early stage of development, this list is very much in
 ==Planned Features==
 
   * Support for other beam data file types (Omnipro .asc files, Varian Eclipse beam data files, DICOM images etc.)
+  * Automated comparison between beam data and a library of reference data.
  
