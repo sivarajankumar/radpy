@@ -11,7 +11,7 @@ The easiest way to install the [Requirements] on Windows is to install the [http
  * PyQt
  * NumPy
  * SciPy
- * ETS
+ * ETS (version 3.6 or earlier)
  * pydicom
 
 These modules can be found [http://www.pythonxy.com/standard.php here].
