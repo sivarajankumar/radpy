@@ -1,0 +1,34 @@
+#summary How to install and run RadPy.
+= Introduction =
+
+RadPy can be installed and run either by using a binary installer or by downloading the source.
+
+= Windows =
+
+== Binary Installer ==
+
+The latest version of the RadPy binary installer for Windows is available in the [http://code.google.com/p/radpy/downloads/list Downloads] section.  If downloaded and installed, no further software is needed.
+
+Note:  Currently the binary version of RadPy only contains the core Beam Analysis plugin cannot read the source version of other plugins.  If you want to use other plugins, you must install the source version as described below.
+
+== Source Installation ==
+
+The source code for RadPy is available in the [http://code.google.com/p/radpy/downloads/list Downloads] section in tarred, gzipped form (extension .tar.gz)  It can be extracted with several Windows based programs (one of which is [http://www.7-zip.org/ 7-zip].  Once downloaded and extracted, the source code can be installed in any folder.
+
+To use the source version, the Python interpreter and supporting libraries must be installed on your computer.  The easiest way to install the [Requirements] on Windows is to install the [http://www.pythonxy.com Python x,y] distribution.  In particular, the following Python x,y modules need to be installed:
+
+ * Python
+ * PyQt
+ * NumPy
+ * SciPy
+ * ETS (version 3.6 or earlier)
+ * pydicom
+
+These modules can be found [http://www.pythonxy.com/standard.php here].
+
+In addition, the [http://lxml.de/ lxml] XML parsing library must be installed.
+
+=MacOS=
+
+=Linux=
+
