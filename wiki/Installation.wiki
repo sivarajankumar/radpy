@@ -16,6 +16,8 @@ The easiest way to install the [Requirements] on Windows is to install the [http
 
 These modules can be found [http://www.pythonxy.com/standard.php here].
 
+In addition, the [http://lxml.de/ lxml] XML parsing library must be installed.
+
 ==RadPy==
 Once the requirements are installed, a source archive can be downloaded from the [http://code.google.com/p/radpy/downloads/list downloads] page, or the latest development version can be checked out from the subversion repository.
 
