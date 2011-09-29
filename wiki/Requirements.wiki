@@ -2,7 +2,7 @@
 #labels Featured
 = Introduction =
 
-The current build of RadPy has only been tested to work under Windows (XP and Vista).  However, all components should work under MacOS and Linux.
+The current build of RadPy has only been tested to work under Windows (XP, Vista or 7).  However, all components should work under MacOS and Linux.
 
 
 = Details =
