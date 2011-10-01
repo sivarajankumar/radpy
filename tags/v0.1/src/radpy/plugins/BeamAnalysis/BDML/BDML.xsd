@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema elementFormDefault="qualified" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://www.radpy.org"
+    xmlns="http://www.radpy.org"
+    version="0.2">
+    
+    
+
+	<xsd:include schemaLocation="Measurement.xsd"></xsd:include>
+	<xsd:include schemaLocation="Beam.xsd"></xsd:include>
+	<xsd:include schemaLocation="Data.xsd"></xsd:include>
+	
+    <xsd:complexType name="BeamType" mixed="true">
+       <xsd:all>
+        <xsd:element name="MeasurementDetails"
+            type="MeasurementDetailsType" maxOccurs="1" minOccurs="0">
+        </xsd:element>
+        <xsd:element name="BeamDetails" type="BeamDetailsType"
+            maxOccurs="1" minOccurs="0">
+        </xsd:element>
+        <xsd:element name="Data" type="BeamDataType" maxOccurs="1" minOccurs="1"></xsd:element>
+        </xsd:all>
+    </xsd:complexType>
+	
+
+	
+
+    <xsd:complexType name="BDMLType">
+    	<xsd:sequence maxOccurs="unbounded" minOccurs="1">
+    		<xsd:element name="Beam" type="BeamType"></xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:element name="BDML" type="BDMLType"></xsd:element>
+</xsd:schema>
