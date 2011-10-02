@@ -1,0 +1,16 @@
+#summary How to edit beam metadata and save it in BDML format
+
+= Introduction =
+
+The BDML tags associated with a particular scan can be edited and the changes can be saved into a file in BDML format.
+
+
+= Editing Scans =
+
+To edit the metadata for a particular scan, right click on it and choose 'Edit beam parameters' from the context menu.
+
+http://radpy.googlecode.com/svn/wiki/images/Edit_Beam.png
+
+This will bring up the 'Edit properties' dialog where the beam metadata can be viewed and edited.
+
+http://radpy.googlecode.com/svn/wiki/images/Edit_properties.png
