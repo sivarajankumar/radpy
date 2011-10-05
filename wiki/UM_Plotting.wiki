@@ -1,0 +1,19 @@
+#summary How to plot scans and interact with them.
+= Introduction =
+
+RadPy allows you to plot scans and take actions to modify the plotted data.
+
+
+= Plotting a 1D scan =
+
+To plot a single scan, either double click on the scan or right click on the scan and select 'Add to plot'.
+
+http://radpy.googlecode.com/svn/wiki/images/Edit_Beam.png
+
+Multiple scans can be plotted by right clicking on a branch in the Tree View and selecting 'Add all to plot'.
+
+http://radpy.googlecode.com/svn/wiki/images/Edit_multi.png
+
+Plots are added to plot windows in the middle of RadPy's workspace.  Multiple plot windows can be open at the same time.  To add a new plot window, go to the File menu and select 'New Plot', or click on the new plot icon in the toolbar.  You can switch to a different plot window by left clicking on its tab at the top.  If there are multiple plot windows open, any new scans plotted will be added to the currently selected window.
+
+Each plot window can only contain one type of scan (depth dose, inplane or crossplane).  If the currently selected plot window is a different type than the plot added, a new plot window will be created and the plot added to it.
