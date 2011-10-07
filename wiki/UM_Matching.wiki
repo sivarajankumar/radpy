@@ -1,0 +1,12 @@
+#summary Finding matching scans between two data sets.
+
+= Introduction =
+
+RadPy has the ability to look within a set of 1D scans and find scans which match the currently plotting scan according to a set of user specified criteria.  It can also extract a matching 1D profile from a 3D Dicom-RT Dose 
+data set.
+
+= Finding Matching Profiles =
+
+To find the scans in a reference data set that match a particular scan, first load the scan and plot it in the RadPy plot window.  Open your reference data set and right click on a branch in the Tree View.  (RadPy will only look for scans under the branch you choose.)  Choose 'Add matching beams'.  This will pull up the 'Parameters to match' dialog.
+
+http://radpy.googlecode.com/svn/wiki/images/parameters_to_match.png
