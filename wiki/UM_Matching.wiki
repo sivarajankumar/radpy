@@ -20,3 +20,15 @@ If the reference data set is a 3D Dicom dataset, RadPy will test all parameters 
 In the sample data set, open the 'Test1.rfb' and the 'RD.10x10-anon.dcm' files.  'Test1.rfb' is a data set consisting of 1D profiles for 6X and 18X energies for various filed sizes.  'RD.10x10-anon.dcm' is a 3D Dicom dataset for a 10x10 field with 6X energy.
 
 Open the 'Test1' tree and find a 6X, 10x10 Crossplane profile at a depth of 5 cm.  Plot it in a new RadPy plot window.
+
+Right click on the 'RD.10x10-anon' tree and select 'Add matching beams'.
+
+http://radpy.googlecode.com/svn/wiki/images/Match_example_1.png
+
+In the 'Parameters to Match' dialog select 'Depth', 'Field Size', 'Scan Type' and 'Energy'.  Click 'Ok'.
+
+http://radpy.googlecode.com/svn/wiki/images/Match_example_2.png
+
+A new crossplane profile at a depth of 5 cm will be plotted in the plot window.  Since the Dicom dose file is in units of absolute dose, both plots will have to be normalized to compare them (click on each plot and click the 'Quick Normalize' button on the toolbar).
+
+http://radpy.googlecode.com/svn/wiki/images/Match_example_3.png
