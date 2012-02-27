@@ -35,3 +35,25 @@ To run the source version of RadPy, double click on the run.py file in the sourc
 =MacOS=
 
 =Linux=
+
+In order to run the source version of RadPy on a debian based system, the following packages must be installed (via sudo apt-get install or through a package manager program):
+
+python-scipy
+python-lxml
+python-qt4
+python-dev
+python-qt4-gl
+python-configobj
+swig
+
+The following libraries are needed to download and compile the Enthought Tool Suite:  
+
+git-core
+libx11-dev
+mesa-common-dev
+libglu1-mesa-dev
+libqt4-opengl-dev
+python-qt4-gl
+
+The Enthought Tool Suite can then be installed using the directions found [http://code.enthought.com/source/ here].
+
