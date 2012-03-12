@@ -1,4 +1,5 @@
 #summary How to install and run RadPy.
+#labels Featured
 = Introduction =
 
 RadPy can be installed and run either by using a binary installer or by downloading the source.
@@ -33,6 +34,8 @@ In addition, the [http://lxml.de/ lxml] XML parsing library must be installed.
 To run the source version of RadPy, double click on the run.py file in the source directory or run it with the Python interpreter.
 
 =MacOS=
+
+A disk image of the binary version of RadPy is available on the downloads page.  To install, download the disk image, open it and drag the RadPy folder to your Applications folder.
 
 =Linux=
 
